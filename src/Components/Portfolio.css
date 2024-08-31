@@ -1,0 +1,94 @@
+.portfoliotext{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.title{
+    color: #02027b;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.PortfolioSectio{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.photos{
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.pics{
+    box-shadow: rgba(12, 12, 12, 0.70) 10px 12px 30px;
+    border-radius: 50%;
+    width: 290px;
+}
+
+.ptext{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #161616;
+}
+
+.pdesc{
+    font-size: 1.2em;
+    color: #494949;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button {
+    background-color: #1f87f7; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 50px;
+}
+  
+.button:hover {
+    background-color: #0567cf;
+    font-weight: bolder;
+}
+
+
+.button1 {
+    background-color: #1f87f7; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+  
+.button1:hover {
+    background-color: #0567cf;
+    font-weight: bolder;
+}
+
+.pdots {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: #B52580;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px; /* Spacing between dots */
+}
+

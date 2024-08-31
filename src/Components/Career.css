@@ -1,0 +1,43 @@
+.careersection{
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.titlecareer{
+    color: #02027b;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.headingC{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: black;
+}
+
+.headingS{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #494949;
+    line-height: 1px;
+    /* margin: 0 0px 0px 0; */
+}
+
+.listcareer{
+    margin-top: 15px;
+}
+
+div.listcareer{
+    text-align: center;
+}
+
+.careersection2{
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.careerdots {
+    text-align: center;
+    font-weight: bold;
+}

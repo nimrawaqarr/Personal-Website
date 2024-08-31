@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    right: 30px;
+    top: 65%;
+    transform: translateY(-50%);
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#star {
+    font-size: 18px;
+    color: #9cacbc;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+#star:hover {
+    color: white;
+  }
+  
+#star.active {
+    color: #9cacbc;
+}
+
+   
+#arrow {
+    font-size: 45px;
+    cursor: pointer;
+    padding: 5px;
+    user-select: none;
+    color: #9cacbc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#bottomArrowTooltip, #topArrowTooltip, #bioTooltip, #portfolioTooltip,
+#skillTooltip, #careerTooltip, #educationTooltip, #contactTooltip {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid white;
+}
+
+  
+
